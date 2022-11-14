@@ -115,13 +115,13 @@ Cálculo de corriente
 |  | **Nodo 1** | | **Nodo 2** | | **Nodo 3** | | **Nodo 4** | | **Nodo 5** | |
 | :----------: | :----------: |:-------:| :----------: |:----------: |:-------:| :----------: | :----------: |:----------: |:-------:| :----------: |
 |**CORRIENTE**|**Calculado**| **Medido** |**Calculado**|**Medido**|**Calculado**|**Medido**|**Calculado**|**Medido**|**Calculado**|**Medido**|
-| IT (A)  | 1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|
-| IR1 (A) |-1.02 mA| -1.03 mA|   |    |    |   |   |   |   |   |
-| IR2 (A) |    |     |-0.54 mA|-0.55 mA|    |       |-0.54 mA|-0.55 mA|     |    |
-| IR3 (A) |    |     |-0.48 mA|-0.48 mA|-0.48 mA|-0.48 mA|    |      |     |     |
-| IR4 (A) |    |     |     |      |-0.48 mA|-0.48 mA| -0.48 mA|-0.48 mA|   |     |
-| IR5 (A) |    |     |     |      |     |   |    |    |-1.02 mA| -1.03 mA|
-|  ΣI (A) |0 mA| 0 mA|0 mA| 0 mA|0.09 mA|0.09 mA|0 mA| 0 mA|0 mA| 0 mA|
+| IT (mA)  | 1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|1.02 mA| 1.03 mA|
+| IR1 (mA) |-1.02 mA| -1.03 mA|   |    |    |   |   |   |   |   |
+| IR2 (mA) |    |     |-0.54 mA|-0.55 mA|    |       |-0.54 mA|-0.55 mA|     |    |
+| IR3 (mA) |    |     |-0.48 mA|-0.48 mA|-0.48 mA|-0.48 mA|    |      |     |     |
+| IR4 (mA) |    |     |     |      |-0.48 mA|-0.48 mA| -0.48 mA|-0.48 mA|   |     |
+| IR5 (mA) |    |     |     |      |     |   |    |    |-1.02 mA| -1.03 mA|
+|  ΣI (mA) |0 mA| 0 mA|0 mA| 0 mA|0.09 mA|0.09 mA|0 mA| 0 mA|0 mA| 0 mA|
 
 **Calculo de errores de las mediciones**
 
@@ -138,6 +138,7 @@ Cálculo de corriente
 El porcentaje de error, no se muestra por encima del 2%, es decir, los valores calculados son casi exactos a los simulados.
 
 ### 5. CONCLUSIONES
+Al calcular y simular los valores, del amperímetro y multímetro, su porcentaje de error es minimo, siendo los simulados mas exactos que los calculados, ya que cuenta con una fuente de voltaje ideal, es decir, de mas precision.
 
 ### 6. BIBLIOGRAFIA
 
